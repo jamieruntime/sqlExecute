@@ -11,19 +11,18 @@ Description
 A single line function for queries with multiple return types
 
 <blockquote>
-// Returns result set
-var result = sqlExecute("SELECT * FROM myTable");
-
-// Returns auto-generated identity ID
-var id = sqlExecute("INSERT INTO myTable (myValue) VALUES ('foo')");
-
-// Executes an update statement
-sqlExecute("UPDATE myTable SET myValue = 'bar' WHERE id = 1");
+// Returns result set<br>
+var result = sqlExecute("SELECT * FROM myTable");<br>
+<br>
+// Returns auto-generated identity ID<br>
+var id = sqlExecute("INSERT INTO myTable (myValue) VALUES ('foo')");<br>
+<br>
+// Executes an update statement<br>
+sqlExecute("UPDATE myTable SET myValue = 'bar' WHERE id = 1");<br>
 </blockquote>
 
 Notes
 -----
-
 * uses application.dsn as the default datasource (change as necessary)
 
 About the Author
